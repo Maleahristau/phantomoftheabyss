@@ -8,81 +8,79 @@ Output file: D:\Maleahs.Corner\GameDesignII\GitHubSetup\phantomoftheabyss\phanto
 
 INFO: using built-in palette.
       2 entities
-      2 unique textures
-     88 texinfos
-    150 unique planes
+      4 unique textures
+    191 texinfos
+    282 unique planes
 
-INFO: world extents calculated to 2261 units
-     15 brushes
-    114 sides
-     61 side bevels
+INFO: world extents calculated to 4835 units
+     32 brushes
+    225 sides
+    170 side bevels
 
             0 texture frames added
 WARNING: unable to find texture skip
 Processing hull 0...
-    15 SOLID brushes
-    15 brushes total
-    114 visible sides
-INFO: calculating BSP for 15 brushes with 114 sides
-     15 brushes
-    114 visible faces
-    182 nodes
-      6 expensive split nodes
-    176 mid-split nodes
-    183 leaves
-    114 EMPTY leafs
-     69 SOLID leafs
-    183 leafs total
-    17 max tree height
-    10 avg tree height
-    1 tiny portals
-    830 tree portals
+    32 SOLID brushes
+    32 brushes total
+    225 visible sides
+INFO: calculating BSP for 32 brushes with 225 sides
+     32 brushes
+    225 visible faces
+    1,214 nodes
+       25 expensive split nodes
+    1,189 mid-split nodes
+    1,215 leaves
+      563 EMPTY leafs
+      652 SOLID leafs
+    1,215 leafs total
+    22 max tree height
+    13 avg tree height
+    8 tiny portals
+    4,913 tree portals
 WARNING: Reached occupant "info_player_start" at (-32 -16 44), no filling performed.
 Leak file written to phantomoftheabyss.pts
-            5 portals written to phantomoftheabyss.leak.prt
-    1 tiny portals
-    830 tree portals
-    253 sides visible
-    253 makefaces
-     74 merged
-    290 subdivided
-    11 nodes pruned
-    114 EMPTY leafs
-     58 SOLID leafs
-    172 leafs total
-    17 max tree height
-    10 avg tree height
-        1 edges degenerated
-      629 edges added by tjunctions
-      452 faces optimized through MWT
-    1,565 triangles computed from MWT
-      207 faces created via optimization of MWT triangles
-    1,467 edges
-      676 faces
+            7 portals written to phantomoftheabyss.leak.prt
+    8 tiny portals
+    4,913 tree portals
+    1,292 sides visible
+    1,292 makefaces
+      299 merged
+    1,014 subdivided
+    147 nodes pruned
+      563 EMPTY leafs
+      505 SOLID leafs
+    1,068 leafs total
+    21 max tree height
+    13 avg tree height
+    2,079 edges added by tjunctions
+    1,954 faces optimized through MWT
+    6,060 triangles computed from MWT
+      642 faces created via optimization of MWT triangles
+    5,710 edges
+    2,649 faces
 Processing hull 1...
 WARNING: Reached occupant "info_player_start" at (-32 -16 44), no filling performed.
 Processing hull 2...
-WARNING: Reached occupant "info_player_start" at (-32 -16 44), no filling performed.
 Writing phantomoftheabyss.bsp as Quake BSP bsp29
 Wrote phantomoftheabyss.bsp
 
 count   lump name    byte size 
       1 models               64
-    329 planes             6580
-    793 vertexes           9516
-    171 nodes              4104
-     60 texinfos           2400
-    676 faces             13520
-   1094 clipnodes          8752
-    115 leafs              3220
-    816 marksurfaces       1632
-   1468 edges              5872
-   2934 surfedges         11736
-      2 textures          21812
+    502 planes            10040
+   3035 vertexes          36420
+   1067 nodes             25608
+    157 texinfos           6280
+   2649 faces             52980
+   2707 clipnodes         21656
+    564 leafs             15792
+   3052 marksurfaces       6104
+   5711 edges             22844
+  11411 surfedges         45644
+      4 textures          65420
         lightdata             0
         visdata               0
         entdata             240
 
-0.029s seconds elapsed
+0.111s seconds elapsed
 
 
