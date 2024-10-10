@@ -1,0 +1,88 @@
+---- qbsp / ericw-tools 2.0.0-alpha8-29-gb2f23f76 ----
+
+--- Options Summary ---
+    "nocolor" was set to "1" (from command line)
+
+Input file: D:\Maleahs.Corner\GameDesignII\GitHubSetup\phantomoftheabyss\phantomoftheabyss-compile.map
+Output file: D:\Maleahs.Corner\GameDesignII\GitHubSetup\phantomoftheabyss\phantomoftheabyss.bsp
+
+INFO: using built-in palette.
+      2 entities
+      2 unique textures
+     88 texinfos
+    150 unique planes
+
+INFO: world extents calculated to 2261 units
+     15 brushes
+    114 sides
+     61 side bevels
+
+            0 texture frames added
+WARNING: unable to find texture skip
+Processing hull 0...
+    15 SOLID brushes
+    15 brushes total
+    114 visible sides
+INFO: calculating BSP for 15 brushes with 114 sides
+     15 brushes
+    114 visible faces
+    182 nodes
+      6 expensive split nodes
+    176 mid-split nodes
+    183 leaves
+    114 EMPTY leafs
+     69 SOLID leafs
+    183 leafs total
+    17 max tree height
+    10 avg tree height
+    1 tiny portals
+    830 tree portals
+WARNING: Reached occupant "info_player_start" at (-32 -16 44), no filling performed.
+Leak file written to phantomoftheabyss.pts
+            5 portals written to phantomoftheabyss.leak.prt
+    1 tiny portals
+    830 tree portals
+    253 sides visible
+    253 makefaces
+     74 merged
+    290 subdivided
+    11 nodes pruned
+    114 EMPTY leafs
+     58 SOLID leafs
+    172 leafs total
+    17 max tree height
+    10 avg tree height
+        1 edges degenerated
+      629 edges added by tjunctions
+      452 faces optimized through MWT
+    1,565 triangles computed from MWT
+      207 faces created via optimization of MWT triangles
+    1,467 edges
+      676 faces
+Processing hull 1...
+WARNING: Reached occupant "info_player_start" at (-32 -16 44), no filling performed.
+Processing hull 2...
+WARNING: Reached occupant "info_player_start" at (-32 -16 44), no filling performed.
+Writing phantomoftheabyss.bsp as Quake BSP bsp29
+Wrote phantomoftheabyss.bsp
+
+count   lump name    byte size 
+      1 models               64
+    329 planes             6580
+    793 vertexes           9516
+    171 nodes              4104
+     60 texinfos           2400
+    676 faces             13520
+   1094 clipnodes          8752
+    115 leafs              3220
+    816 marksurfaces       1632
+   1468 edges              5872
+   2934 surfedges         11736
+      2 textures          21812
+        lightdata             0
+        visdata               0
+        entdata             240
+
+0.029s seconds elapsed
+
+
