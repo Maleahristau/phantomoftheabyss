@@ -1,8 +1,8 @@
 # Phantom of the Abyss : Quake DeathMatch Level Progression
 
-Quake, multiplayer death match level for Game Design 2
+#### Quake, multiplayer DeathMatch level for Game Design II
 
-## Version 0.2
+## Version 0.2 Checkpoint
 ![alt text](https://github.com/Maleahristau/phantomoftheabyss/blob/main/Screenshot%202024-10-10%20045249.png "Version 0.2 Quake Map")
 
 Link for Version 0.2 Map Design
