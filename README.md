@@ -9,4 +9,4 @@
 
 3.[Playtesting](pages/Playtesting.md "Playtesting Page")
 
-4.Texture & Lighting[Texture & Lighting](pages/Texture-and-lighting.md "Texture & Lighting Page")
+4.[Texture & Lighting](pages/Texture-and-lighting.md "Texture & Lighting Page")
