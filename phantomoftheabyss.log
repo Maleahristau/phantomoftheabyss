@@ -7,9 +7,16 @@ Input file: C:\Users\Kitte\OneDrive\Desktop\QuakeSetup\Github\phantomoftheabyss\
 Output file: C:\Users\Kitte\OneDrive\Desktop\QuakeSetup\Github\phantomoftheabyss\phantomoftheabyss.bsp
 
 INFO: using built-in palette.
-     92 entities
-      7 unique textures
-    383 texinfos
+WARNING: phantomoftheabyss-compile.map[line 6]: Unrecognised string escape - \.
+WARNING: phantomoftheabyss-compile.map[line 6]: Unrecognised string escape - \.
+WARNING: phantomoftheabyss-compile.map[line 6]: Unrecognised string escape - \q
+WARNING: phantomoftheabyss-compile.map[line 6]: Unrecognised string escape - \e
+WARNING: phantomoftheabyss-compile.map[line 6]: Unrecognised string escape - \q
+WARNING: phantomoftheabyss-compile.map[line 6]: Unrecognised string escape - \p
+WARNING: phantomoftheabyss-compile.map[line 6]: Unrecognised string escape - \p
+    187 entities
+     22 unique textures
+    250 texinfos
     638 unique planes
 
 INFO: world extents calculated to 65373 units
@@ -18,56 +25,55 @@ INFO: world extents calculated to 65373 units
     346 side bevels
 
             0 texture frames added
-WARNING: unable to find texture skip
-WARNING: unable to find texture __TB_empty
 Processing hull 0...
-    59 SOLID brushes
+    58 SOLID brushes
+     1 WATER | Q2_UNUSED_8 brushes
     59 brushes total
     431 visible sides
 INFO: calculating BSP for 59 brushes with 431 sides
      59 brushes
-    395 visible faces
-     36 non-visible faces
-    7,654 nodes
-       65 non-visible nodes
-      189 expensive split nodes
-    7,465 mid-split nodes
-    7,655 leaves
-    2,264 EMPTY leafs
-    5,391 SOLID leafs
-    7,655 leafs total
+    431 visible faces
+    8,953 nodes
+      320 expensive split nodes
+    8,633 mid-split nodes
+    8,954 leaves
+      348 WATER | Q2_UNUSED_8 leafs
+    2,744 EMPTY leafs
+    5,862 SOLID leafs
+    8,954 leafs total
     35 max tree height
     17 avg tree height
-    444 tiny portals
-    27,529 tree portals
+    754 tiny portals
+    30,784 tree portals
 WARNING: Reached occupant "ambient_drip" at (130 -1616 -266), no filling performed.
 Leak file written to phantomoftheabyss.pts
             3 portals written to phantomoftheabyss.leak.prt
-    444 tiny portals
-    27,529 tree portals
-WARNING: 58 sides not found (use -verbose to display)
-    4,825 sides visible
-    4,825 makefaces
-      875 merged
-    2,247 subdivided
-    2,982 nodes pruned
-    2,264 EMPTY leafs
-    2,409 SOLID leafs
-    4,673 leafs total
+    754 tiny portals
+    30,784 tree portals
+WARNING: 62 sides not found (use -verbose to display)
+    6,751 sides visible
+    6,126 makefaces
+      908 merged
+    1,271 subdivided
+    2,583 nodes pruned
+      348 WATER | Q2_UNUSED_8 leafs
+    2,744 EMPTY leafs
+    3,279 SOLID leafs
+    6,371 leafs total
     35 max tree height
-    16 avg tree height
-         2 edges degenerated
-     4,037 edges added by tjunctions
-     5,425 faces optimized through MWT
-    15,047 triangles computed from MWT
-     1,183 faces created via optimization of MWT triangles
-    14,836 edges
-     6,811 faces
+    17 avg tree height
+         3 edges degenerated
+     3,509 edges added by tjunctions
+     6,221 faces optimized through MWT
+    16,179 triangles computed from MWT
+       970 faces created via optimization of MWT triangles
+    16,422 edges
+     7,459 faces
 Processing hull 1...
 WARNING: Reached occupant "ambient_drip" at (130 -1616 -266), no filling performed.
 Processing hull 2...
 WARNING: Reached occupant "ambient_drip" at (130 -1616 -266), no filling performed.
-WARNING: worldspawn at 0 0 0 has long value for key wad (length 185 >= 127)
+WARNING: worldspawn at 0 0 0 has long value for key wad (length 772 >= 127)
 LIMITS EXCEEDED ON dnode_t::mins
 NOTE: limits exceeded for Quake BSP - switching to Quake BSP2
 Writing phantomoftheabyss.bsp as Quake BSP2 bsp2
@@ -75,21 +81,21 @@ Wrote phantomoftheabyss.bsp
 
 count   lump name    byte size 
       1 models               64
-   1551 planes            31020
-   7880 vertexes          94560
-   4672 nodes            205568
-    289 texinfos          11560
-   6811 faces            190708
-  39760 clipnodes        477120
-   2265 leafs             99660
-   8160 marksurfaces      32640
-  14837 edges            118696
-  28873 surfedges        115492
-      7 textures         109032
+   1553 planes            31060
+   7724 vertexes          92688
+   6370 nodes            280280
+    211 texinfos           8440
+   7459 faces            208852
+  44662 clipnodes        535944
+   3093 leafs            136092
+   8756 marksurfaces      35024
+  16423 edges            131384
+  31366 surfedges        125464
+     22 textures         272972
         lightdata             0
         visdata               0
-        entdata            5900
+        entdata           13456
 
-0.568s seconds elapsed
+0.551s seconds elapsed
 
 
